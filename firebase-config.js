@@ -4,18 +4,17 @@
 //  Firebase Console → Project Settings → Your apps → Config
 // ═══════════════════════════════════════════════════════════
 
-const FIREBASE_CONFIG = {
-  apiKey:            "YOUR_API_KEY",
-  authDomain:        "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL:       "https://YOUR_PROJECT_ID-default-rtdb.firebaseio.com",
-  projectId:         "YOUR_PROJECT_ID",
-  storageBucket:     "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId:             "YOUR_APP_ID"
+const firebaseConfig = {
+  apiKey: "AIzaSyBbF3Wbp6eyQFamgw94P9UNsBltVMCIbF8",
+  authDomain: "transfile-5573c.firebaseapp.com",
+  projectId: "transfile-5573c",
+  storageBucket: "transfile-5573c.firebasestorage.app",
+  messagingSenderId: "837002908892",
+  appId: "1:837002908892:web:51c3730bc133d5a09b5019"
 };
 
 // Initialize Firebase
-firebase.initializeApp(FIREBASE_CONFIG);
+firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
 // ── Firestore Collection Names ──
